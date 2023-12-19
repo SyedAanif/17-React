@@ -1,0 +1,14 @@
+.heading {
+    color: red;
+}
+
+ul {
+    color: blue;
+}
+
+/* note the case in CSS and React */
+.img-class {
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+}
