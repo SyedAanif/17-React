@@ -11,7 +11,7 @@ class ClassComponent extends React.Component {
     this.increase = this.increase.bind(this);
   }
 
-  //   handler
+  //   handler or LIFECYCLE
   increase() {
     this.setState({ count: this.state.count + 1 });
   }

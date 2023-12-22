@@ -4,8 +4,10 @@ import React, { useState } from "react";
 // this has less biolerplate code
 // ease of using state
 function FunctionalComponent() {
+  // STATE
   const [count, setCount] = useState(0);
 
+  //   LIFECYCLE
   function increase() {
     setCount(count + 1);
   }
